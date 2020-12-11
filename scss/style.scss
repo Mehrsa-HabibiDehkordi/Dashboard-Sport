@@ -1,0 +1,122 @@
+* {
+    font-family: vazir !important;
+}
+
+.article {
+    & img {
+        width: auto;
+        height: 120px;
+    }
+
+    & h4 {
+        &>a {
+            color: #212529;
+            text-decoration: none;
+        }
+    }
+
+    & .date {
+        color: #212529;
+    }
+
+    & > div {
+        &>a {
+            text-align: justify;
+        }
+    }
+
+    & > div {
+        & > p {
+            text-align: justify;
+        }
+        & > div {
+            & a {
+                text-decoration: none;
+                color: #212529;
+                &:hover{
+                    color: #0b0c0c;
+                    font-style: italic;
+                }
+            }
+
+        }
+    }
+}
+
+.category{
+    & .news {
+        & img {
+            height: 100px;
+            width: auto;
+        }
+        & > div {
+            & > h4 {
+                font-size: 1rem;
+                & > a {
+                    text-decoration: none;
+                }
+            }
+            // & > h4 , & > span {
+            //     font-size: 1rem;
+            // }
+            & > p {
+                font-size: .8rem;
+                text-align: justify;
+            }
+            & > span {
+                font-size: .7rem;
+            }
+        }
+    }
+}
+
+.blog-footer{
+    & nav.nav{
+        height: 200px;
+    }
+}
+
+.single1 {
+   & h4.ro-titr{
+       font-size: 1.1rem;
+       color: #777676;
+   } 
+   & h3.titr{
+    font-size: 1.8rem;
+    color: #272727;
+    font-family: vazir;
+    } 
+   & p.abstract{
+    font-size: .9rem;
+    color: #777676;
+   }
+   & img.thumbnail{
+    width: 100%;
+    height: auto; 
+   }
+   & p.body{
+    font-size: 1rem;
+    color: #444444;
+    text-align: justify;
+    line-height: 1.8rem;
+   }
+   & .comment-info{
+       &>.authur {
+        font-weight: bold;
+        color: #3f3f3f;
+        font-size: 1rem;
+       }
+       &>.date {
+        color: #707070;
+        font-size: .8rem;
+       }
+   }
+   & p.comment-text {
+       font-size: .9rem;
+       color: #414040;
+       text-align: justify;
+   }
+}
+.txt-dec {
+            text-decoration: none;
+    }
